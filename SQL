@@ -1,0 +1,12 @@
+create database truckmgt;
+use truckmgt;
+
+create table truck(
+id int primary key auto_increment,
+name varchar(40),
+model varchar(40),
+capacity int,
+driver_name varchar(40)
+);
+
+select * from truck;
